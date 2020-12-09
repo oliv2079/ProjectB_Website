@@ -108,7 +108,7 @@ This distribution also follows a power law. 158511 out of 275539 (over half of) 
 
 It is tested whether users can be separated into meaningful groups by partitioning them into communities. The users' use of tags will determine this. 
 
-Problems occured when trying to find communities. The size of the graph was too big to project. There are given new conditions for there to be a link between an anime and a user. The current network has 22.358.833 links. This needs to be sized down to a few hundred thousand. Because of time restraints it was not possible to redo the whole network statistics and visualization section. The new constaints are:
+Problems occured when trying to find communities. The size of the graph was too big to project. There are given new conditions for there to be a link between an anime and a user. The current network has 22.358.833 links. This needs to be sized down to a few hundred thousand. Because of time constraints it was not possible to redo the whole network statistics and visualization section. The new constaints are:
 
 1. The anime must be a Drama
 2. The user must have added a tag to the anime
