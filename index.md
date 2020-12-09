@@ -19,7 +19,7 @@ The datasets can be downloaded from google drive [here](https://drive.google.com
 
 ## What makes an Anime Popular
 
-First, let's take a look at whether some of the attributes correlate with the popularity of an anime. Specifically we will look at airing date, MAL review score, sources, type, and the studio that produced it.
+First, let's take a look at some of the data attributes and see if they correlate with the popularity of an anime. Specifically we will look at airing date, MAL review score, sources, type, and the studio that produced it.
 
 All 14.478 anime are analyzed in this section.
 
@@ -68,6 +68,21 @@ The root here is the anime *Maki to Kanta to Jiijii to.* (ID: 34342). It has the
 
 All but 2 anime are in this sub-network. This is because a few users have almost all anime in their libraries. This makes it pointless to try to project the bipartite network onto the anime nodes as this would result in an almost complete network. This will be discussed in the community detection section.
 
+Now that we know what the network looks like let's move on to some statistics.
+
+### Network Statistics
+
+- Nodes: 277.833
+- Anime Nodes : 2.294
+- User Nodes: 275.539
+- Links: 22.358.833
+- Components: 1
+- k_min: 1
+- k_max: 165233
+- k_median: 58.0
+- k_mean: 160.9516
+- p: 0.000579
+
 Below is the degree distribution for anime nodes:
 
 ### Anime Degree Distribution
@@ -76,16 +91,24 @@ Below is the degree distribution for anime nodes:
 
 **x-axis = degrees and y-axis = counts**
 
+Most anime have a very low degree (are in many peoples' lists). The distribution follows a power law!
+
+1486 out of 2294 (over half of) anime are only in 8 to 4964 users' lists. Quite a low number considering there are 275.539 users in the network.
+
+
 ### User Degree Distribution
 
 <img src="Snip8.PNG">
 
 **x-axis = degrees and y-axis = counts**
 
+This distribution also follows a power law. 158511 out of 275539 (over half of) users have under 69 anime in their lists.
+
 
 
 ## Community detection
 
+Problems occured when trying to find communities. The data 
 
 
 ## Sentiment Analysis on Reviews
