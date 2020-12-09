@@ -17,9 +17,10 @@ The data can be downloaded from google drive [here](https://drive.google.com/fil
 
 # Network analysis
 
+First, let's take a look at whether some of the attributes correlates with the popularity of an anime. Specifically we will look at airing date, MAL review score, sources, type, and the studio that produced it.
+
 All 14.478 anime are analyzed in this section.
 
-First, let's take a look at whether some of the attributes correlates with the popularity of an anime. Specifically we will look at airing date, MAL review score, sources, type, genre and the studio that produced it.
 
 Let's first take a look at the continuous variables. We will start by looking at popularity's correlation with the airing date of anime and the MAL review scores.
 
@@ -37,8 +38,15 @@ Next up let's look at what type of anime it is (a series, a movie, etc.)
 
 <img src="Snip3.PNG">
 
+Anime series tend to be way more popular than movies and spinoffs. They also constitute 62.5% of all anime on the platform. Users do not seem to have that many spinoffs (OVAs, Specials) in their lists, likely because they are satisfied with having the original anime in their library or because they don't think it's worth adding a single episode to their library. 
 
+Let's look at which studios produce the most popular anime:
 
+<img src="Snip5.PNG">
+
+**CoMixWaverFilms** is the studio with the highest average members count. They have produced critically acclaimed anime *such as Kimi no Na wa.* and *Tenki no Ko.*
+
+**Whitefox** has produced very popular anime such as *Steins Gate*, *Re:Zero kara Hajimeru Isekai Seikatsu* and *Akame ga Kill!*
 
 
 # Download the datasets
