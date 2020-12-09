@@ -104,11 +104,45 @@ Most anime have a very low degree (are in many peoples' lists). The distribution
 
 This distribution also follows a power law. 158511 out of 275539 (over half of) users have under 69 anime in their lists.
 
-
-
 ## Community detection
 
-Problems occured when trying to find communities. The data 
+Problems occured when trying to find communities. The size of the graph was too big to project. There are given new conditions for there to be a link between an anime and a user. The current network has 22.358.833 links. This needs to be sized down to a few hundred thousand. Because of time restraints it was not possible to redo the whole network statistics and visualization section. The new constaints are:
+
+- The anime must be a Drama
+- The user must have added a tag to the anime
+- One of the tags added to the anime should be at least 3 letters long
+- There should be at least 10 of those tags in the network.
+- The user must be female
+
+This results in 129.181 links and the graph can now be projected. 
+
+The idea is then to find out whether communities give anime different kinds of tags. This is done by counting unique words in each community and calculating TF-IDF weights.
+
+The numerical statistic TF-IDF is a measure of how important a word is. This can be used to prioritise words used frequently in one community and not a lot in others.
+
+The giant (biggest component) of the graph is extracted from the graph to make sure that small components do not mess with the results when calculating TF-IDF weights for tags.
+
+The resulting giant has the following traits:
+
+- Nodes: 9757
+- Anime Nodes : 1587
+- User Nodes: 8170  
+- Links: 129179
+- Components: 1
+- k_min: 1
+- k_max: 1203
+- k_median: 7.0
+- k_mean: 26.48
+- p: 0.002714
+
+The graph is projected onto the user nodes to create a unipartite graph of users. There is a connection between two users if they have tagged the same anime and if the above restrictions are held.
+
+The resulting unipartite graph is then partitioned into communities using the Louvain algorithm that finds the best partition of a network using a greedy optimization method. 
+
+TF-IDFs are calculated and the following wordsclouds were plotted for each community:
+
+<img src="Snip9.PNG">
+
 
 
 ## Sentiment Analysis on Reviews
