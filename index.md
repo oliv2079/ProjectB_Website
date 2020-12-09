@@ -2,7 +2,7 @@
 
 TEEEEEEEEEEEEEEEST
 
-![Image](Graph_depth1.PNG)
+![Image](Graph_depth1.PNG =250x)
 
 
 You can use the [editor on GitHub](https://github.com/oliv2079/ProjectB_Website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
