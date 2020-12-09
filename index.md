@@ -6,8 +6,29 @@ If the link is broken try [here](https://nbviewer.jupyter.org/github/oliv2079/Pr
 
 Otherwise contact me on doocmail@gmail.com
 
-# Motivation
+# Introduction
+[MyAnimeList](https://myanimelist.net/) (abbreviated as MAL) is a social networking platform where people discuss, review, and share information about anime, manga, and the like. It was launched in November 2004 by Garett Gyssler and has since gathered a vast userbase. Users can log and provide detailed information about anime they have watched or want to watch in lists. This project will mainly focus on analyzing the network of users and anime these lists create. Additionally it is explored what makes an anime popular with MAL users and also take a look at anime review sentiments.
 
+The dataset used contains information about $14.478$ anime, users and their userlists. It only has information up until July 2018. 
+
+Reviews were retrieved via the Jikan API (more information in the explainer notebook).
+
+
+
+# Download the datasets
+The raw data (MAL users, anime and userlists datasets) used can be downloaded form [Kaggle](https://www.kaggle.com/azathoth42/myanimelist) 
+
+The Kaggle data as well as the reviews dataset and some processed data can be downloaded from google drive [here](https://drive.google.com/file/d/14VxtPMgNMbMo2vSABc_UwTxnidj2SgSi/view?usp=sharing)
+
+[An explainer notebook can be found here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages/ProjectB_Final_V3.ipynb)
+
+If the link is broken try [here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages//Explainer_Notebook/ProjectB_Final.ipynb)
+
+
+
+
+
+# Appendix
 The main goals are to provide information about:
 
 - User watching habits and what makes an anime popular based on different parameters (release date, score, etc.)
