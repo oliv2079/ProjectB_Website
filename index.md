@@ -19,7 +19,10 @@ The data can be downloaded from google drive [here](https://drive.google.com/fil
 
 First, let's take a look at what makes an anime popular. 
 
+<img src="Snip1.PNG">
 
+
+width="40%"
 
 # Download the datasets
 The raw data (MAL users, anime and userlists datasets) used can be downloaded form [Kaggle](https://www.kaggle.com/azathoth42/myanimelist) 
