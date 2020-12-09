@@ -17,12 +17,29 @@ The data can be downloaded from google drive [here](https://drive.google.com/fil
 
 # Network analysis
 
-First, let's take a look at what makes an anime popular. 
+All 14.478 anime are analyzed in this section.
+
+First, let's take a look at whether some of the attributes correlates with the popularity of an anime. Specifically we will look at airing date, MAL review score, sources, type, genre and the studio that produced it.
+
+Let's first take a look at the continuous variables. We will start by looking at popularity's correlation with the airing date of anime and the MAL review scores.
 
 <img src="Snip1.PNG">
 
+The number of anime released have been rising exponentially with time as seen on the top left plot. On the top right plot it can be observed that popularity of an anime tend to rise expontially with it's airing date except for anime released in the most recent years that likely have yet to gain popularity. MAL users tend to watch newer anime rather than older. On the bottom right plot we see that popularity also rises exponentially with the MAL score of the anime. This means that the better the anime (the better reviewed it is) the more popular it will tends to be as would be expected. Anime tend to have a review score above 7 as seen on the bottom left plot
 
-width="40%"
+Now let's look at some categorial data. We will first be looking at where the anime was adapted from and how this correlates with it's popularity. 
+
+<img src="Snip2.PNG">
+
+Anime adapted from light novels are the most popular on average and constitute 12% of all anime on MAL. 1.2% of all anime on MAL are adapted from web manga and they tend to be as popular as light novels. Interestingly, anime adapted from manga are that much less popular than light novels and web manga despite 37.5% of all anime being adapted from them. Much the same can be said about original anime (anime not adapted from other sources) that are even less popular than manga adaptations. The reason for them not being as popular as adaptations is because these already have an audience. If a person has read the manga, they already know it and are probably more likely to watch the anime than if they hadn't. 
+
+Next up let's look at what type of anime it is (a series, a movie, etc.)
+
+<img src="Snip3.PNG">
+
+
+
+
 
 # Download the datasets
 The raw data (MAL users, anime and userlists datasets) used can be downloaded form [Kaggle](https://www.kaggle.com/azathoth42/myanimelist) 
