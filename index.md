@@ -56,7 +56,16 @@ The three studios whose anime are most popular on average are:
 
 ## Introducing the network
 
-The network was made from the userlists dataframe. The network is made up of all anime that are in users' lists as well as all users who have one or more anime in their library. There is a link between a user and an anime if the user has the anime in one of their lists. The resulting network is bipartite since users can only be connected to anime and vice versa. As mentioned, only anime in the drama genre were included in the network. 
+The network was made from the userlists dataframe. The network is made up of all anime that are in users' lists as well as all users who have one or more anime in their library. There is a link between a user and an anime if the user has the anime in one of their lists. The resulting network is bipartite since users can only be connected to anime and vice versa. As mentioned, only anime in the drama genre were included in the network.
+
+Plotting the whole network would be somewhat pointless with that many links. Let's choose a root and find their level 1 and level 2 neighbors to getter picture of how the network is structured:
+
+<img src="Graph_depth1.PNG" width="40%">
+
+The root here is the anime Maki to Kanta to Jiijii to. (ID: 34342). It has the lowest degree (8) out of all the anime nodes in the network. Observe that no user (red nodes) is connected to other users and that the anime only has users as neighbors. Let's now take at look at level 2 neighbors:
+
+<img src="Snip6.PNG">
+
 
 
 ## Sentiment Analysis on Reviews
