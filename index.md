@@ -28,7 +28,7 @@ Syntax highlighted code block
 
 [Link](url) and 
 
-![Image]("Graph_depth1.PNG")
+![Image](Graph_depth1.PNG)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
