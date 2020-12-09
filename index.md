@@ -2,7 +2,7 @@
 
 [An explainer notebook can be found here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages/ProjectB_Final_V3.ipynb)
 
-If the link is broken try [here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages//Explainer_Notebook/ProjectB_Final.ipynb)
+If the link is broken try [here](https://raw.githubusercontent.com/oliv2079/ProjectB_Website/gh-pages/ProjectB_Final.ipynb)
 
 Otherwise contact me on doocmail@gmail.com
 
@@ -158,13 +158,46 @@ Sentiment scores for every word in a review are averaged and added to the review
 
 The average sentiments are plotted against different attributes. 
 
-<img src="Snip10.PNG">
+<img src="Capture10.PNG">
 
 The top left plot shows how many reviews have been written over time. The top right plot shows the relationship between when the review was written and the average sentiment. It is observed that review sentiments are generally becoming less happy over time. 
 
 The bottom left plot shows the number of reviews on anime aired on a specific date. Note that this is not the number of anime aired, it is the number of reviews (up to 20 per anime) accumulated for every anime that was aired at that point in time.
 
 Looking at the bottom right plot, sentiments do not seem to change significantly depending on when the anime was released. There is a large sentiment variation before 2000 but this is likely due to scarcity of reviews.
+
+Next is the relationship between review scores and average sentiment
+
+<img src="Snip11.PNG">
+
+There is a clear relationship between review score and review sentiment (as was to be expected). The average sentiment difference between a review score of 1 and a review score of 10 is ~0.3, which is not much but the connection is quite clear.
+
+
+<img src="Capture12.PNG">
+
+As with the review scores, there is a clear relationship between MAL score and the average sentiment. Anime that are generally disliked are more likely to have more negatively written reviews.
+
+Here is the happiest and the saddest review on the MAL platform:
+
+The happiest review was made by **HazelOwers**, August 2012 about the anime movie **Pokemon Movie 02: Maboroshi no Pokemon Lugia Bakutan**:
+
+*"This is my favourite pokemon movie :) i love lugia's song, beautiful music"* **(sentiment score: 7.29)**
+
+The saddest review on the MAL platform was made by **aeris2001x2** August 2010 about the anime **Soujuu Senshi Psychic Wars**:
+
+*This is without doubt the WORST anime i have ever seen. Please never watch this, it will suck your soul away :( * **(sentiment score: 4.20)**
+
+# Key insights:
+
+- Popularity tend to rise exponentially with airing date (except anime released withing the last 5 years that likely have yet to gain popularity)
+- Popularity rises exponentially with the MAL score
+- CoMixWaverFilms's anime are the most popular on average by a large margin
+- Anime adapted from light novels and web manga tend to be more popular than original anime and anime adapted from manga (that together constitute over 60% of all anime)
+- Anime series tend to be more popular than anime movies
+- Reviews are generally becoming more and more negative (but still above neutral sentiment 5)
+- There is an almost fully correlated linear relationship between review scores and review sentiments. Even with reviews giving a score of 1 the average sentiment is still on t the positive side though.
+- In general, the worse the score (both review score and MAL score), the more negative the review sentiment is.
+- Most of the top 20 reviews give a score of 8
 
 
 # Download the Datasets
