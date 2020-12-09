@@ -17,10 +17,11 @@ The data can be downloaded from google drive [here](https://drive.google.com/fil
 
 # Network analysis
 
-First, let's take a look at whether some of the attributes correlates with the popularity of an anime. Specifically we will look at airing date, MAL review score, sources, type, and the studio that produced it.
+## Anime popularity
+
+First, let's take a look at whether some of the attributes correlate with the popularity of an anime. Specifically we will look at airing date, MAL review score, sources, type, and the studio that produced it.
 
 All 14.478 anime are analyzed in this section.
-
 
 Let's first take a look at the continuous variables. We will start by looking at popularity's correlation with the airing date of anime and the MAL review scores.
 
@@ -44,11 +45,19 @@ Let's look at which studios produce the most popular anime:
 
 <img src="Snip5.PNG">
 
+The three studios whose anime are most popular on average are:
+
 **CoMixWaverFilms** is the studio with the highest average members count. They have produced critically acclaimed anime *such as Kimi no Na wa.* and *Tenki no Ko.*
 
 **WitStudio** has made the extremely popular *Attack on titan* and other popular anime such as *Owari no Seraph* and *Mahoutsukai no Yome*
 
 **Whitefox** has produced very popular anime such as *Steins Gate*, *Re:Zero kara Hajimeru Isekai Seikatsu* and *Akame ga Kill!*
+
+
+## Sentiment Analysis
+
+
+
 
 
 
