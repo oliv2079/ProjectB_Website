@@ -9,15 +9,15 @@ Otherwise contact me on doocmail@gmail.com
 # Introduction
 [MyAnimeList](https://myanimelist.net/) (abbreviated as MAL) is a social networking platform where people discuss, review, and share information about anime, manga, and the like. It was launched in November 2004 by Garett Gyssler and has since gathered a vast userbase. Users can log and provide detailed information about anime they have watched or want to watch and store them in lists. This project will mainly focus on analyzing the network of users and anime these lists create. Additionally it is explored what makes an anime popular with MAL users and how positive/negative anime reviews are.
 
-The dataset used contains information about 14.478 anime, 302.675 users and 80.076.112 userlist entries. It only has information up until July 2018. Only drama anime will be included and analyzed in the resulting network as there was not enough computer power available to process more.
+The dataset used contains information about 14.478 anime, 302.675 users and 80.076.112 userlist entries. It only has information up until July 2018. Only drama anime will be included and analyzed in the network as there was not enough computer power available to process more.
 
 Reviews were retrieved in December 2020 via the Jikan API and contains reviews up to that point (more information in the explainer notebook).
 
-The data can be downloaded from google drive [here](https://drive.google.com/file/d/14VxtPMgNMbMo2vSABc_UwTxnidj2SgSi/view?usp=sharing)
+The datasets can be downloaded from google drive [here](https://drive.google.com/file/d/14VxtPMgNMbMo2vSABc_UwTxnidj2SgSi/view?usp=sharing)
 
-# Network analysis
+# Network Analysis
 
-## Anime popularity
+## What makes an Anime Popular
 
 First, let's take a look at whether some of the attributes correlate with the popularity of an anime. Specifically we will look at airing date, MAL review score, sources, type, and the studio that produced it.
 
@@ -54,14 +54,20 @@ The three studios whose anime are most popular on average are:
 **Whitefox** has produced very popular anime such as *Steins Gate*, *Re:Zero kara Hajimeru Isekai Seikatsu* and *Akame ga Kill!*
 
 
-## Sentiment Analysis
+## Introducing the network
+
+
+
+
+## Sentiment Analysis on Reviews
 
 
 
 
 
 
-# Download the datasets
+
+# Download the Datasets
 The raw data (MAL users, anime and userlists datasets) used can be downloaded form [Kaggle](https://www.kaggle.com/azathoth42/myanimelist) 
 
 The Kaggle data as well as the reviews dataset and some processed data can be downloaded from google drive [here](https://drive.google.com/file/d/14VxtPMgNMbMo2vSABc_UwTxnidj2SgSi/view?usp=sharing)
