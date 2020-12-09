@@ -158,7 +158,7 @@ Sentiment scores for every word in a review are averaged and added to the review
 
 The average sentiments are plotted against different attributes. 
 
-<img src="Snip9.PNG">
+<img src="Snip10.PNG">
 
 The top left plot shows how many reviews have been written over time. The top right plot shows the relationship between when the review was written and the average sentiment. It is observed that review sentiments are generally becoming less happy over time. 
 
