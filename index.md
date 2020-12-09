@@ -1,4 +1,26 @@
-## Welcome to GitHub Pages
+**This is a project aimed at analyzing the anime and manga social networking platform [MyAnimeList](https://myanimelist.net/) and it's users.**
+
+# Motivation
+
+The main goals are to provide information about:
+
+- User watching habits and what makes an anime popular based on different parameters (release date, score, etc.)
+- How (or whether) users can be separated into meaningful groups given the tags they provide to the MAL platform
+- How review sentiments differ based on different parameters (review date, score, etc.)
+
+
+
+The data used in this analyzis is mainly based on the [Kaggle](https://www.kaggle.com/) dataset *MyAnimeList Dataset* containing information about $300k$ users, $14k$ anime and $80mil$ ratings from [MyAnimeList.net](https://myanimelist.net/).
+
+The Kaggle dataset can be found [here](https://www.kaggle.com/azathoth42/myanimelist) (last visited 08/12/2020)
+
+Reviews have retrieved from the unofficial MyAnimeList API: [Jikan API](https://jikan.moe/). 
+
+
+
+
+
+
 
 TEEEEEEEEEEEEEEEST
 
