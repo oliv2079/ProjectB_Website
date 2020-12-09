@@ -60,12 +60,31 @@ The network was made from the userlists dataframe. The network is made up of all
 
 Plotting the whole network would be somewhat pointless with that many links. Let's choose a root and find their level 1 and level 2 neighbors to getter picture of how the network is structured:
 
-<img src="Graph_depth1.PNG" width="60%">
+<img src="Graph_depth1.PNG" width="50%">
 
-The root here is the anime Maki to Kanta to Jiijii to. (ID: 34342). It has the lowest degree (8) out of all the anime nodes in the network. Observe that no user (red nodes) is connected to other users and that the anime only has users as neighbors. Let's now take at look at level 2 neighbors:
+The root here is the anime *Maki to Kanta to Jiijii to.* (ID: 34342). It has the lowest degree (8) out of all the anime nodes in the network. Using an anime with very low degree made it easier to visualize. Observe that no user (red nodes) is connected to other users and that the anime only has users as neighbors. Let's now take at look at level 2 neighbors:
 
-<img src="Snip6.PNG" width="80%">
+<img src="Snip6.PNG" width="60%">
 
+All but 2 anime are in this sub-network. This is because a few users have almost all anime in their libraries. This makes it pointless to try to project the bipartite network onto the anime nodes as this would result in an almost complete network. This will be discussed in the community detection section.
+
+Below is the degree distribution for anime nodes:
+
+### Anime Degree Distribution
+
+<img src="Snip7.PNG" width="60%">
+
+**x-axis = degrees and y-axis = counts**
+
+### User Degree Distribution
+
+<img src="Snip8.PNG" width="60%">
+
+**x-axis = degrees and y-axis = counts**
+
+
+
+## Community detection
 
 
 
