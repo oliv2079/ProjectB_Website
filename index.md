@@ -1,8 +1,8 @@
 **This is a project aimed at analyzing the anime and manga social networking platform [MyAnimeList](https://myanimelist.net/) and it's users.**
 
-[An explainer notebook can be found here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages/ProjectB_Final_V3.ipynb)
+An explainer notebook can be found [here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages/ProjectB_Final_V3.ipynb)
 
-If the link is broken try [here](https://raw.githubusercontent.com/oliv2079/ProjectB_Website/gh-pages/ProjectB_Final.ipynb)
+If the link is broken try downloading from google drive [here](https://drive.google.com/file/d/1qQkOn8d7vcms8tDfwVESRDpMCp1QYX1v/view?usp=sharing)
 
 Otherwise contact me on doocmail@gmail.com
 
