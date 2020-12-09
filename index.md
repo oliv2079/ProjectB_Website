@@ -72,13 +72,13 @@ Below is the degree distribution for anime nodes:
 
 ### Anime Degree Distribution
 
-<img src="Snip7.PNG" width="60%">
+<img src="Snip7.PNG">
 
 **x-axis = degrees and y-axis = counts**
 
 ### User Degree Distribution
 
-<img src="Snip8.PNG" width="60%">
+<img src="Snip8.PNG">
 
 **x-axis = degrees and y-axis = counts**
 
