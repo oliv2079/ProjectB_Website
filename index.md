@@ -2,6 +2,10 @@
 
 [An explainer notebook can be found here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages/ProjectB_Final_V3.ipynb)
 
+If the link is broken try [here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages//Explainer_Notebook/ProjectB_Final.ipynb)
+
+Otherwise contact me on doocmail@gmail.com
+
 # Motivation
 
 The main goals are to provide information about:
