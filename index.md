@@ -187,18 +187,6 @@ The saddest review on the MAL platform was made by **aeris2001x2** August 2010 a
 
 *This is without doubt the WORST anime i have ever seen. Please never watch this, it will suck your soul away :( * **(sentiment score: 4.20)**
 
-# Key insights:
-
-- Popularity tend to rise exponentially with airing date (except anime released withing the last 5 years that likely have yet to gain popularity)
-- Popularity rises exponentially with the MAL score
-- CoMixWaverFilms's anime are the most popular on average by a large margin
-- Anime adapted from light novels and web manga tend to be more popular than original anime and anime adapted from manga (that together constitute over 60% of all anime)
-- Anime series tend to be more popular than anime movies
-- Reviews are generally becoming more and more negative (but still above neutral sentiment 5)
-- There is an almost fully correlated linear relationship between review scores and review sentiments. Even with reviews giving a score of 1 the average sentiment is still on t the positive side though.
-- In general, the worse the score (both review score and MAL score), the more negative the review sentiment is.
-- Most of the top 20 reviews give a score of 8
-
 
 # Download the Datasets
 The raw data (MAL users, anime and userlists datasets) used can be downloaded form [Kaggle](https://www.kaggle.com/azathoth42/myanimelist) 
