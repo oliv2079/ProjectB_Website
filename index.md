@@ -27,9 +27,9 @@ Let's first take a look at the continuous variables. We will start by looking at
 
 <img src="Snip1.PNG">
 
-The number of anime released have been rising exponentially with time as seen on the top left plot. On the top right plot it can be observed that popularity of an anime tend to rise expontially with it's airing date except for anime released in the most recent years that likely have yet to gain popularity. MAL users tend to watch newer anime rather than older. On the bottom right plot we see that popularity also rises exponentially with the MAL score of the anime. This means that the better the anime (the better reviewed it is) the more popular it will tends to be as would be expected. Anime tend to have a review score above 7 as seen on the bottom left plot
+The number of anime released have been rising exponentially with time as seen on the top left plot. On the top right plot it can be observed that popularity of an anime tend to rise expontially with it's airing date except for anime released in the most recent years that likely have yet to gain popularity. These two observations together seem to imply that supply of and demand for anime is increasing. MAL users tend to watch newer anime rather than older. On the bottom right plot we see that popularity also rises exponentially with the MAL score of the anime. This means that the better the anime (the better reviewed it is) the more popular it will tend to be as would be expected. Anime tend to have a review score above 7 as seen on the bottom left plot
 
-Now let's look at some categorial data. We will first be looking at where the anime was adapted from and how this correlates with it's popularity. 
+Now let's look at some categorial data. We will first be looking at where the anime was adapted from and whether this is related to it's popularity. 
 
 <img src="Snip2.PNG">
 
@@ -56,7 +56,7 @@ The three studios whose anime are most popular on average are:
 
 ## Introducing the network
 
-
+The network was made from the userlists dataframe. The network is made up of all anime that are in users' lists as well as all users who have one or more anime in their library. There is a link between a user and an anime if the user has the anime in one of their lists. The resulting network is bipartite since users can only be connected to anime and vice versa. As mentioned, only anime in the drama genre were included in the network. 
 
 
 ## Sentiment Analysis on Reviews
