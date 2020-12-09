@@ -106,13 +106,15 @@ This distribution also follows a power law. 158511 out of 275539 (over half of) 
 
 ## Community detection
 
+It is tested whether users can be separated into meaningful groups by partitioning them into communities. The users' use of tags will determine this. 
+
 Problems occured when trying to find communities. The size of the graph was too big to project. There are given new conditions for there to be a link between an anime and a user. The current network has 22.358.833 links. This needs to be sized down to a few hundred thousand. Because of time restraints it was not possible to redo the whole network statistics and visualization section. The new constaints are:
 
-- The anime must be a Drama
-- The user must have added a tag to the anime
-- One of the tags added to the anime should be at least 3 letters long
-- There should be at least 10 of those tags in the network.
-- The user must be female
+1. The anime must be a Drama
+2. The user must have added a tag to the anime
+3. One of the tags added to the anime should be at least 3 letters long
+4. There should be at least 10 of those tags in the network.
+5. The user must be female
 
 This results in 129.181 links and the graph can now be projected. 
 
@@ -144,13 +146,25 @@ TF-IDFs are calculated and the following wordsclouds were plotted for each commu
 <img src="Snip9.PNG">
 
 
+5 communities were found. The number of users in each community can be seen on the respective wordclouds. A lot of words that are not in english. These appear very frequently in specific communities. For example Community 0 and 3 is mostly english while community 2 seems to have a lot of Spanish and or Portuguese words. It's interesting to see that the community detection to some extent has separated users with different nationalities into separate communities! There also seems to be a difference in what category of anime are tagged. For example in community 0 where shounenai (love between boys) and bishounen (beautiful boy) are frequent tags while community 3 seems to tag the anime Code Geass: lelouch of the rebellion a lot. Community 1 seems to be more wholesome than community 0 with frequent tags such as families, kimono and angellike.
 
 ## Sentiment Analysis on Reviews
 
+Sentiments are measures of happiness/negativeness. This section focuses on finding sentiments for the top 20 reviews for all anime on MAL and testing how sentiments correlate with different attributes from both the review dataset and the anime dataset. 
 
+Sentiments scores are calculated using the LabMT wordlist consisting of 10.000 words where each word's happiness/negativeness has been evaluated.
 
+Sentiment scores for every word in a review are averaged and added to the review dataframe.
 
+The average sentiments are plotted against different attributes. 
 
+<img src="Snip9.PNG">
+
+The top left plot shows how many reviews have been written over time. The top right plot shows the relationship between when the review was written and the average sentiment. It is observed that review sentiments are generally becoming less happy over time. 
+
+The bottom left plot shows the number of reviews on anime aired on a specific date. Note that this is not the number of anime aired, it is the number of reviews (up to 20 per anime) accumulated for every anime that was aired at that point in time.
+
+Looking at the bottom right plot, sentiments do not seem to change significantly depending on when the anime was released. There is a large sentiment variation before 2000 but this is likely due to scarcity of reviews.
 
 
 # Download the Datasets
@@ -162,72 +176,3 @@ The Kaggle data as well as the reviews dataset and some processed data can be do
 
 If the link is broken try [here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages//Explainer_Notebook/ProjectB_Final.ipynb)
 
-
-
-
-
-# Appendix
-The main goals are to provide information about:
-
-- User watching habits and what makes an anime popular based on different parameters (release date, score, etc.)
-- How (or whether) users can be separated into meaningful groups given the tags they provide to the MAL platform
-- How review sentiments differ based on different parameters (review date, score, etc.)
-
-
-
-The data used in this analyzis is mainly based on the [Kaggle](https://www.kaggle.com/) dataset *MyAnimeList Dataset* containing information about $300k$ users, $14k$ anime and $80mil$ ratings from [MyAnimeList.net](https://myanimelist.net/).
-
-The Kaggle dataset can be found [here](https://www.kaggle.com/azathoth42/myanimelist) (last visited 08/12/2020)
-
-Reviews have retrieved from the unofficial MyAnimeList API: [Jikan API](https://jikan.moe/). 
-
-
-
-
-
-
-
-TEEEEEEEEEEEEEEEST
-
-![Image](Graph_depth1.PNG | width=100)
-
-<img src="Graph_depth1.PNG" width="40%">
-
-
-You can use the [editor on GitHub](https://github.com/oliv2079/ProjectB_Website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and 
-
-![Image](Graph_depth1.PNG)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oliv2079/ProjectB_Website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
