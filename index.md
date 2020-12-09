@@ -64,7 +64,7 @@ Plotting the whole network would be somewhat pointless with that many links. Let
 
 The root here is the anime Maki to Kanta to Jiijii to. (ID: 34342). It has the lowest degree (8) out of all the anime nodes in the network. Observe that no user (red nodes) is connected to other users and that the anime only has users as neighbors. Let's now take at look at level 2 neighbors:
 
-<img src="Snip6.PNG">
+<img src="Snip6.PNG" width="60%">
 
 
 
