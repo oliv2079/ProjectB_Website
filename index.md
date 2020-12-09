@@ -46,7 +46,10 @@ Let's look at which studios produce the most popular anime:
 
 **CoMixWaverFilms** is the studio with the highest average members count. They have produced critically acclaimed anime *such as Kimi no Na wa.* and *Tenki no Ko.*
 
+**WitStudio** has made the extremely popular *Attack on titan* and other popular anime such as *Owari no Seraph* and *Mahoutsukai no Yome*
+
 **Whitefox** has produced very popular anime such as *Steins Gate*, *Re:Zero kara Hajimeru Isekai Seikatsu* and *Akame ga Kill!*
+
 
 
 # Download the datasets
