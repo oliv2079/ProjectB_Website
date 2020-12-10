@@ -214,7 +214,7 @@ The raw data (MAL users, anime and userlists datasets) used can be downloaded fo
 
 The Kaggle data as well as the reviews dataset and some processed data can be downloaded from google drive [here](https://drive.google.com/file/d/14VxtPMgNMbMo2vSABc_UwTxnidj2SgSi/view?usp=sharing)
 
-[An explainer notebook can be found here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages/ProjectB_Final_V3.ipynb)
+[An explainer notebook can be found here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages/ProjectB_Final.ipynb)
 
-If the link is broken try [here](https://nbviewer.jupyter.org/github/oliv2079/ProjectB_Website/blob/gh-pages//Explainer_Notebook/ProjectB_Final.ipynb)
+If the link is broken download it from google drive [here](https://drive.google.com/file/d/1qQkOn8d7vcms8tDfwVESRDpMCp1QYX1v/view?usp=sharing)
 
