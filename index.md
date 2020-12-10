@@ -139,14 +139,35 @@ The resulting giant has the following traits:
 
 The graph is projected onto the user nodes to create a unipartite graph of users. There is a connection between two users if they have tagged the same anime and if the above restrictions are held.
 
+The projected graph has the traits:
+
+- Nodes: 8170
+- Anime Nodes : 0
+- User Nodes: 8170  
+- Links: 9021352
+- Components: 1
+- k_min: 1
+- k_max: 7666
+- k_median: 1878
+- k_mean: 2208.41
+- p: 0.27034
+
 The resulting unipartite graph is then partitioned into communities using the Louvain algorithm that finds the best partition of a network using a greedy optimization method. 
+
+The number of nodes in the five resulting communities are:
+
+- Community 0: 3548
+- Community 1: 117
+- Community 2: 3415
+- Community 3: 603
+- Community 4: 487
 
 TF-IDFs are calculated and the following wordsclouds were plotted for each community:
 
 <img src="Snip9.PNG">
 
 
-5 communities were found. The number of users in each community can be seen on the respective wordclouds. A lot of words that are not in english. These appear very frequently in specific communities. For example Community 0 and 3 is mostly english while community 2 seems to have a lot of Spanish and or Portuguese words. It's interesting to see that the community detection to some extent has separated users with different nationalities into separate communities! There also seems to be a difference in what category of anime are tagged. For example in community 0 where shounenai (love between boys) and bishounen (beautiful boy) are frequent tags while community 3 seems to tag the anime Code Geass: lelouch of the rebellion a lot. Community 1 seems to be more wholesome than community 0 with frequent tags such as families, kimono and angellike.
+The number of users in each community can be seen on the respective wordclouds. A lot of words that are not in english. These appear very frequently in specific communities. For example Community 0 and 3 is mostly english while community 2 seems to have a lot of Spanish and or Portuguese words. It's interesting to see that the community detection to some extent has separated users with different nationalities into separate communities! There also seems to be a difference in what category of anime are tagged. For example in community 0 where shounenai (love between boys) and bishounen (beautiful boy) are frequent tags while community 3 seems to tag the anime Code Geass: lelouch of the rebellion a lot. Community 1 seems to be more wholesome than community 0 with frequent tags such as families, kimono and angellike.
 
 ## Sentiment Analysis on Reviews
 
